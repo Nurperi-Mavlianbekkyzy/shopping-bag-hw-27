@@ -1,0 +1,101 @@
+body {
+	background: linear-gradient(to bottom, #cc99ff 0%, #00ffcc 100%);
+	color: #fca447;
+	font-weight: bolder;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1349px;
+}
+.container {
+	width: 800px;
+	height: 750px;
+	background-color: white;
+	margin-left: 300px;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: #d2386c;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+hr {
+	
+	border-top: solid 2px #00A170;
+}
+
+.delimg1,
+.delimg2,
+.delimg3,
+.heartimg1,
+.heartimg2,
+.heartimg3 {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin-top: 80px;
+}
+.T-shirt {
+	width: 200px;
+	height: 180px;
+}
+
+.box1,
+.box2,
+.box3 {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.salesnumber {
+	cursor: pointer;
+}
+
+#price,
+#price2,
+#price3 {
+	width: 80px;
+	height: 20px;
+}
+
+#salesnumber,
+#salesnumber2,
+#salesnumber3 {
+	width: 20px;
+	height: 20px;
+}
+
+#salesminus,
+#salesminus2,
+#salesminus3,
+#salesnumber,
+#salesnumber2,
+#salesnumber3,
+#salesplus,
+#salesplus2,
+#salesplus3,
+#price,
+#price2,
+#price3 {
+	margin-top: 80px;
+	cursor: pointer;
+}
+
+#salesminus,
+#salesminus2,
+#salesminus3,
+#salesplus,
+#salesplus2,
+#salesplus3 {
+	background-color: rgb(223, 223, 223);
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-radius: 3px;
+}
